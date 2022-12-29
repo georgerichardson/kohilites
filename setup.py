@@ -11,7 +11,7 @@ with open("README.md", "r") as fr:
 common_kwargs = dict(
     version="0.0.1",
     license="MIT",
-    install_requires=["Mdutils==1.4.0", "SLPP==1.2.3"],
+    install_requires=["Mdutils==1.4.0", "SLPP==1.2.3", "pytest==7.2.0"],
     long_description_content_type="text/markdown",
     url="https://github.com/georgerichardson/kohilites",
     author="George Richardson",
