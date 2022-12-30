@@ -5,7 +5,7 @@ from .kohilites import MetaData
 
 @click.command()
 @click.option('--input', help='Path to document metadata.')
-@click.option('--output', help='Path to save parsed document metadata.', required=False, default=None)
+@click.option('--output', help='Path to save parsed document metadata.', default=None)
 def get_highlights(input, output):
     """Extracts highlights from one or several KoReader metadata files.
 
